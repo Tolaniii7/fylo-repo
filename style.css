@@ -182,10 +182,16 @@ footer {
 .main-container>p,
 .container-sub-main>p,
 .quotation-box,
+section > div >p,
 footer {
     font-size: 20px;
 }
 
+section>div>p {
+    font-size: 14px;
+}
+
+.container-sub-main
 
     li {
         font-size: 14px;
