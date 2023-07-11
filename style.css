@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1em;
+}
+.overall {
+    max-width: 500px;
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+
+/* ......main...... */
+.main-container > h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding: 1em;
+    color: hsl(243, 87%, 12%);
+}
+
+.main-container > p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(243, 87%, 12%);
+    padding: 1em;
+    line-height: 1.5;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    padding: 0.65em;
+    background: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+    margin-top: 0.5em;
+}
+
+/* ..........SUB-CONTAINER....... */
+
+.container-sub-main {
+    /* background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: repeat-y;
+    background-size: 500px; */
+    background:hsl(180, 12%, 94%) ;
+    opacity: 0.6;
+    padding: 1em;
+}
+
+.container-sub-main > h5 {
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    color: hsl(243, 87%, 12%);
+}
+
+.container-sub-main > p {
+    text-align: center;
+    color: hsl(243, 87%, 12%);
+    font-family:  'Raleway', sans-serif;
+    font-size: 14px;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    line-height: 1.5;
+}
+    
+
+.flyoo {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* justify-content: center; */
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    margin-top: 3em;
+}
+
+.quotation-box {
+    /* border: 1px solid red; */
+    max-width: 300px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    color:  hsl(243, 87%, 12%);
+    background: white;
+    border-radius: 10px;
+    padding: 2em;
+    line-height: 1.5;
+    margin: 5em auto 0 ;
+}
+
+h6 {
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+
+.author {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.author-people > P {
+    font-size: 8px;
+
+}
+
+
+/* ...........section........... */
+
+section {
+    background: hsl(238, 22%, 44%);
+    padding: 2em;
+    text-align: center;
+}
+
+h3{
+    color: hsl(240, 75%, 98%);
+}
+section > div > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: hsl(240, 75%, 98%);
+    line-height: 1.5;
+    margin: 2em 2em;
+}
+
+
+footer {
+    background: hsl(243, 87%, 12%);
+    color:hsl(240, 75%, 98%) ;
+    font-family: 'Open Sans',   sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em;
+    line-height: 1.5;
+}
+
+.contact {
+    display: flex;
+    gap: 1em;
+}
+
+
+
+@media screen and (min-width:574px) {
+    main {
+        display: flex;
+        padding: 2em;
+    }
+
+    .main-container {
+        flex-shrink: 1;
+    }
+    sub-main {
+        display: flex;
+        padding: 2em;
+    }
+
+    .sign-up{
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    button {
+        width: 150px;
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section>div>p {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
