@@ -10,7 +10,7 @@ li {
     text-decoration: none;
     list-style: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 nav > ul {
@@ -51,8 +51,8 @@ nav > ul {
 }
 
 button {
-    width: 200px;
-    padding: 0.65em;
+    width: 150px;
+    padding: 0.7em;
     background: hsl(224, 93%, 58%);
     color: #fff;
     border: none;
@@ -70,7 +70,7 @@ button {
     padding: 1em;
 }
 
-.container-sub-main > h5 {
+.container-sub-main > h4 {
     font-family: 'Raleway',sans-serif;
     text-align: center;
     color: hsl(243, 87%, 12%);
@@ -98,11 +98,15 @@ button {
     margin-top: 3em;
 }
 
+.flyoo > h6{
+    color: hsl(170, 45%, 43%);
+}
+
 .quotation-box {
     /* border: 1px solid red; */
     max-width: 300px;
     font-family: 'Open Sans',sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color:  hsl(243, 87%, 12%);
     background: white;
     border-radius: 10px;
@@ -155,7 +159,7 @@ footer {
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 2em;
     padding: 3em;
     line-height: 1.5;
 }
@@ -173,6 +177,18 @@ footer {
         padding: 2em;
     }
 
+.main-container>p,
+.container-sub-main>p,
+.quotation-box,
+footer {
+    font-size: 18px;
+}
+
+
+    li {
+        font-size: 14px;
+    }
+
     .main-container {
         flex-shrink: 1;
     }
@@ -183,6 +199,7 @@ footer {
 
     .sign-up{
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 0.5em;
     }
@@ -194,10 +211,10 @@ footer {
 
     footer {
         flex-direction: row;
-        justify-content: space-between;
+        gap: 5em;
     }
 
-    section>div>p {
+    section > div > p {
         padding-left: 5em;
         padding-right: 5em;
     }
