@@ -31,6 +31,14 @@ nav > ul {
 
 
 /* ......main...... */
+
+.main-container {
+    order: 1;
+}
+
+.imagee {
+    order: 2;
+}
 .main-container > h3 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -70,6 +78,7 @@ button {
     background:hsl(180, 12%, 94%) ;
     opacity: 0.6;
     padding: 1em;
+    order: 1;
 }
 
 .container-sub-main > h4 {
@@ -187,7 +196,7 @@ footer {
     font-size: 20px;
 }
 
-section>div>p {
+section git> div > p {
     font-size: 14px;
 }
 
